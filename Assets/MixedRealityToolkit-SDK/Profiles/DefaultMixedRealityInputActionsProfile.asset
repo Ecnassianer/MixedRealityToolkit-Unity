@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -14,10 +14,19 @@ MonoBehaviour:
   inputActions:
   - id: 1
     description: Select
-    axisConstraint: 0
+    axisConstraint: 2
   - id: 2
     description: Menu
     axisConstraint: 2
   - id: 3
-    description: Grip
+    description: Grip Pose
     axisConstraint: 7
+  - id: 4
+    description: Pointer Pose
+    axisConstraint: 7
+  - id: 5
+    description: Teleport Direction
+    axisConstraint: 4
+  - id: 6
+    description: Trigger
+    axisConstraint: 3
